@@ -122,7 +122,8 @@ header nav {
 
 }
 
-#freccia {
+.jumbo i {
+    padding: 40px 220px;
     font-size: 40px;
 }
 
