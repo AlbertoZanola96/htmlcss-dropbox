@@ -22,11 +22,63 @@ hr {
     color: gray;
 }
 
-.titolo-colonna {
+.stemma-colonna {
     line-height: 50px;
     vertical-align: middle;
     text-align: center;
     font-weight: 600;
+}
+
+.titolo-colonna {
+    padding: 20px  30px;
+    font-size: 25px;
+}
+
+.gray {
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.sez ul li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.sez ul li i {
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+ul li:nth-child(6) {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.pulsante-colonna {
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 60px;
+}
+
+ul li:nth-child(7){
+    padding-bottom: 30px;
+}
+
+.acquista-ora {
+    color: #0061FF;
+}
+
+li > hr {
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.check {
+    color: #0061FF;
+}
+
+.prezzo {
+    padding-bottom: 5px;
 }
 /* / common */
 
@@ -178,12 +230,10 @@ header nav {
 .colonna-4 {
     float: left;
     width: calc(100% / 3 - 60px);
-    height: 600px;
+    height: 1000px;
     margin-top: 30px;
 }
 
-hr {
-}
 .colonna-2,
 .colonna-3,
 .colonna-4,
@@ -200,7 +250,7 @@ hr {
 .colonna-5 {
     width: 100%;
     height: 150px;
-    margin-top: 680px;
+    margin-top: 1080px;
 }
 
 
