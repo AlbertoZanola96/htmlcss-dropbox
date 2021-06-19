@@ -10,7 +10,7 @@ body {
 
 /* common */
 h2 {
-    font-size: 32px;
+    font-size: 45px;
 }
 
 .centro {
@@ -106,42 +106,42 @@ header nav {
 }
 
 .jumbo h1 {
-    padding: 90px 220px 30px 220px;
-    font-size: 85px;
+    padding: 90px 180px 30px 180px;
+    font-size: 80px;
 }
 
 .jumbo #testo-j {
-    padding: 0 220px;
+    padding: 0 180px;
     margin-bottom: 55px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .jumbo img {
     position: absolute;
-    top: 350px;
-    left: 750px;
-    width: 50%;
+    top: 360px;
+    left: 660px;
+    width: 53%;
 }
 
 .jumbo a {
     text-decoration: none;
     color: white;
     background-color: #0061FF;
-    margin-left: 220px;
+    margin-left: 180px;
     padding: 10px 20px  ;
 }
 
 .jumbo p {
     margin-top: 20px;
-    padding: 0 220px;
+    padding: 0 180px;
     font-weight: 600;
     font-size: 14px;
 
 }
 
 .jumbo i {
-    padding: 40px 220px;
+    padding: 40px 180px;
     font-size: 40px;
 }
 /* fine sezione jumbo */
