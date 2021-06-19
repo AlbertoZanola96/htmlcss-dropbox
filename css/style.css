@@ -107,21 +107,21 @@ header nav {
 
 .jumbo h1 {
     padding: 90px 180px 30px 180px;
-    font-size: 80px;
+    font-size: 85px;
 }
 
 .jumbo #testo-j {
     padding: 0 180px;
     margin-bottom: 55px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .jumbo img {
     position: absolute;
-    top: 360px;
-    left: 660px;
-    width: 53%;
+    top: 350px;
+    left: 700px;
+    width: 50%;
 }
 
 .jumbo a {
@@ -151,6 +151,16 @@ header nav {
 .colonna-1 {
     height: 150px;
     margin-top: 200px; 
+}
+
+.colonna-1 h2 {
+    padding-bottom: 40px;
+}
+
+.colonna-1 span label {
+    margin-right: 20px;
+    text-align: left;
+    font-weight: 600;
 }
 
 .colonna-2,
