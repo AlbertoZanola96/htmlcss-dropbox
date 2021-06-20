@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* common */
 h2 {
     font-size: 45px;
@@ -29,9 +30,12 @@ hr {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 .titolo-colonna {
     padding: 20px  30px;
-    font-size: 25px;
 }
 
 .gray {
@@ -39,13 +43,13 @@ hr {
     padding-bottom: 30px;
 }
 
-.sez ul li {
+.sez-1 ul li {
     list-style-type: none;
     padding-left: 30px;
     
 }
 
-.sez ul li i {
+.sez-1 ul li i {
     padding-top: 30px;
     text-decoration: none;
 }
@@ -133,8 +137,8 @@ header nav {
     font-size: 18px;
 }
 
-/* nav destra */
 
+/* nav destra */
 #nav-right {
     float: right;
     width: 33%;
@@ -212,8 +216,8 @@ header nav {
 }
 /* fine sezione jumbo */
 
-/* sezione 1 */
 
+/* sezione 1 */
 .colonna-1 {
     height: 150px;
     margin-top: 200px; 
@@ -245,8 +249,6 @@ header nav {
     border: 1px solid gray;
 }
 
-
- 
 .colonna-3 {
     margin: 30px 90px;
 }
@@ -260,7 +262,6 @@ header nav {
 .titolo-colonna-5 {
     padding-left: 30px;
     padding-top: 20px;
-    font-size: 25px;
 }
 
 h4 {
@@ -292,9 +293,50 @@ h4 {
     vertical-align: middle;
     text-align: center;
 }
-
 /* fine sezione 1 */
 
+
+/* sezione 2 */
+.sez-2 {
+    margin-top: 160px;
+}
+
+.sez-2 img {
+    float: left;
+    width: 55%;
+}
+
+.sez-2 h3 {
+    padding: 50px 0 25px 760px;
+}
+
+.sez-2 p {
+    padding-top: 6px;
+    padding-left: 760px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sez-2 p:nth-child(6) {
+    margin-bottom: 40px;
+}
+
+
+.sez-2 > a {
+    margin-left: 80px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+/* fine sezione 2 */
 
 
 
@@ -336,7 +378,11 @@ h4 {
     border: 2px solid black;
 }
 
-
+.debug .sez-2 {
+    background-color: turquoise;
+    border: 2px solid black;
+    height: 610px;
+}
 /* / debug */
 
 
