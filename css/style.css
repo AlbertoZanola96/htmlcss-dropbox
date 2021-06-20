@@ -42,6 +42,7 @@ hr {
 .sez ul li {
     list-style-type: none;
     padding-left: 30px;
+    
 }
 
 .sez ul li i {
@@ -79,6 +80,10 @@ li > hr {
 
 .prezzo {
     padding-bottom: 5px;
+}
+
+.a-capo {
+    padding-left: 21px;
 }
 /* / common */
 
@@ -225,12 +230,11 @@ header nav {
 }
 
 .colonna-2,
-.colonna-2,
 .colonna-3,
 .colonna-4 {
     float: left;
     width: calc(100% / 3 - 60px);
-    height: 1000px;
+    height: 1150px;
     margin-top: 30px;
 }
 
@@ -250,15 +254,11 @@ header nav {
 .colonna-5 {
     width: 100%;
     height: 150px;
-    margin-top: 1080px;
+    margin-top: 1230px;
 }
 
 
 /* fine sezione 1 */
-
-
-
-
 
 
 
@@ -303,3 +303,6 @@ header nav {
 
 
 /* / debug */
+
+
+
