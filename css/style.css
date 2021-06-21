@@ -377,14 +377,25 @@ h4 {
 .sez-3 .block-5,
 .sez-3 .block-6 {
     padding-top: 80px;
+    padding-bottom: 100px;
+}
+/* fine sezione 3 */
+
+/* sezione 4 */
+#titolo-sez-4 {
+    padding-bottom: 30px;
 }
 
+#link-clienti {
+    color: #0061FF;
+}
 
-
-
-
-
-/* fine sezione 3 */
+.sez-4 {
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+/* fine sezione 4 */
 
 
 
@@ -393,47 +404,8 @@ h4 {
 
 
 /* debug */
-.debug nav {
-    background-color: red;
-}
-
-.debug #nav-right,
-.debug #nav-left {
-    background-color: blue;
-}
-
-.debug .colonna-1 {
-    background-color: chartreuse;
-    border: 2px solid black;
-}
-
-.debug .colonna-2 {
-    background-color: darkslategrey;
-}
-
-.debug .colonna-3 {
-    background-color: rgb(201, 43, 122);
-    border: 2px solid black;
-}
-
-.debug .colonna-4 {
-    background-color: rgb(27, 194, 194);
-    border: 2px solid black;
-}
-
-.debug .colonna-5 {
-    background-color: rgb(194, 27, 27);
-    border: 2px solid black;
-}
-
-.debug .sez-2 {
-    background-color: turquoise;
-    border: 2px solid black;
-    height: 584px;
-}
-
-.debug .sez-3 {
-    background-color: blue;
+.debug .sez-4 {
+    background-color: coral;
     border: 2px solid black;
 }
 /* / debug */
