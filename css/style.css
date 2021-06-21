@@ -331,12 +331,50 @@ h4 {
     color: black;
     font-weight: 600;
 }
-
-
-
-
-
 /* fine sezione 2 */
+
+/* sezione 3 */
+.sez-3 {
+    height: 1000px;
+    margin-top: 400px;
+}
+
+.sez-3 h2 {
+    margin-bottom: 50px;
+}
+
+.sez-3 h3 {
+    padding-bottom: 30px;
+}
+
+.sez-3 p {
+    font-weight: 600;
+}
+
+.sez-3  section > img {
+    width: 100%;
+}
+
+.sez-3 .block-1 {
+    width: 30%;
+    float: left;
+}
+
+.sez-3 .block-2 {
+    width: 30%;
+    float: left;
+    margin: 0 61px;
+}
+
+.sez-3 .block-3 {
+    width: 30%;
+    float: left;
+}
+
+
+
+
+/* fine sezione 3 */
 
 
 
@@ -381,7 +419,12 @@ h4 {
 .debug .sez-2 {
     background-color: turquoise;
     border: 2px solid black;
-    height: 610px;
+    height: 584px;
+}
+
+.debug .sez-3 {
+    background-color: blue;
+    border: 2px solid black;
 }
 /* / debug */
 
