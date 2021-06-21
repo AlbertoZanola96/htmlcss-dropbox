@@ -358,25 +358,13 @@ h4 {
     width: 100%;
 }
 
-.sez-3 .block-1,
-.sez-3 .block-3,
-.sez-3 .block-4,
-.sez-3 .block-6 {
+.sez-3 .block {
     width: 30%;
     float: left;
+    margin:  40px 41px 80px 0;
 }
 
-.sez-3 .block-2,
-.sez-3 .block-5 {
-    width: 30%;
-    float: left;
-    margin: 0 61px;
-}
-
-.sez-3 .block-4,
-.sez-3 .block-5,
-.sez-3 .block-6 {
-    padding-top: 80px;
+.sez-3 .parte-2 {
     padding-bottom: 100px;
 }
 /* fine sezione 3 */
@@ -388,6 +376,7 @@ h4 {
 
 #link-clienti {
     color: #0061FF;
+    padding-bottom: 30px;
 }
 
 .sez-4 {
@@ -395,8 +384,63 @@ h4 {
     top: 40px;
     width: 100%;
 }
-/* fine sezione 4 */
 
+.square-left { 
+    position: relative;
+}
+.sez-4 img {
+    width: 7vw;
+    height: 7vw;
+    object-fit: contain;
+}
+.square{
+    width: 300px;
+    height: 300px;
+    padding: 85px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.d-1 {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+.d-2 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+.c-1{
+    position: absolute;
+    top: 0;
+    right: 300px;
+
+}
+.c-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.c-3 {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.c-4 {
+    position: absolute;
+    right: 0;
+    top: 300px;
+}
+
+
+
+
+/* fine sezione 4 */
 
 
 
@@ -408,6 +452,8 @@ h4 {
     background-color: coral;
     border: 2px solid black;
 }
+
+
 /* / debug */
 
 
