@@ -383,62 +383,91 @@ h4 {
     position: relative;
     top: 40px;
     width: 100%;
+    background-color: #F5F5F5;
 }
 
-.square-left { 
+.square{
     position: relative;
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 85px 0;
+    text-align: center;
 }
+
+.square-left,
+.square-right {
+    width: 30%;
+    height: 600px;
+    float: left;
+} 
+
+.square-center {
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+
 .sez-4 img {
     width: 7vw;
     height: 7vw;
     object-fit: contain;
 }
-.square{
-    width: 300px;
-    height: 300px;
-    padding: 85px 0;
-    text-align: center;
-    border: 1px solid black;
+
+#designit {
+    background-color: #A2D39B;
 }
 
-.d-1 {
-    position: absolute;
-    left: 300px;
-    top: 0;
+#asu {
+    background-color: #61082B;
 }
 
-.d-2 {
-    position: absolute;
-    left: 300px;
-    top: 300px;
+#uf {
+    background-color: #0093CE;
 }
 
-.c-1{
-    position: absolute;
-    top: 0;
-    right: 300px;
-
-}
-.c-2 {
-    position: absolute;
-    right: 0;
-    top: 0;
+#topps {
+    background-color: #FF1C1C;
 }
 
-.c-3 {
-    position: absolute;
-    top: 300px;
-    right: 300px;
+#bicycle {
+    background-color: #D5001F;
 }
 
-.c-4 {
-    position: absolute;
-    right: 0;
-    top: 300px;
+#hearst {
+    background-color: #B4D0E7;
 }
 
+#lonely {
+    background-color: #0D2481;
+}
 
+#clear {
+    background-color: #FFD830;
+}
 
+.square-center {
+    background-color: #F5F5F5;
+}
+
+.square-center img {
+    margin-left: 60px;
+}
+
+.square-center hr {
+    width: 8%;
+    margin-left: 60px;
+}
+
+.square-center p {
+    padding: 40px 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bianco {
+    filter: invert(100%);
+}
 
 /* fine sezione 4 */
 
@@ -448,10 +477,7 @@ h4 {
 
 
 /* debug */
-.debug .sez-4 {
-    background-color: coral;
-    border: 2px solid black;
-}
+
 
 
 /* / debug */
