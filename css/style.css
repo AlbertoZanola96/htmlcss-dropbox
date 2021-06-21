@@ -335,8 +335,11 @@ h4 {
 
 /* sezione 3 */
 .sez-3 {
-    height: 1000px;
     margin-top: 400px;
+}
+
+.sez-3 span {
+    text-decoration: underline;
 }
 
 .sez-3 h2 {
@@ -355,21 +358,28 @@ h4 {
     width: 100%;
 }
 
-.sez-3 .block-1 {
+.sez-3 .block-1,
+.sez-3 .block-3,
+.sez-3 .block-4,
+.sez-3 .block-6 {
     width: 30%;
     float: left;
 }
 
-.sez-3 .block-2 {
+.sez-3 .block-2,
+.sez-3 .block-5 {
     width: 30%;
     float: left;
     margin: 0 61px;
 }
 
-.sez-3 .block-3 {
-    width: 30%;
-    float: left;
+.sez-3 .block-4,
+.sez-3 .block-5,
+.sez-3 .block-6 {
+    padding-top: 80px;
 }
+
+
 
 
 
