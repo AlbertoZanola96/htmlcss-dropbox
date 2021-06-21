@@ -377,6 +377,7 @@ h4 {
 #link-clienti {
     color: #0061FF;
     padding-bottom: 30px;
+    font-weight: 600;
 }
 
 .sez-4 {
@@ -384,6 +385,7 @@ h4 {
     top: 40px;
     width: 100%;
     background-color: #F5F5F5;
+    margin-bottom: 0;
 }
 
 .square{
@@ -416,6 +418,7 @@ h4 {
 
 #designit {
     background-color: #A2D39B;
+    border: 12px #D0E9CD solid;
 }
 
 #asu {
@@ -469,10 +472,52 @@ h4 {
     filter: invert(100%);
 }
 
+#free-trial {
+    display: inline-block;
+    width: 100%;
+    background-color: #B4D0E7;
+    margin-top: 40px;
+}
+
+#free-trial h2{
+    float: left;
+    color: #61082B;
+    padding: 150px 50px 150px 0;
+}
+
+#free-trial #pulsante-sinistro {
+    float: left;
+    padding: 7px 70px;
+    background-color: white;
+    margin: 160px 0 150px 250px;
+}
+
+#free-trial #pulsante-sinistro a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
 /* fine sezione 4 */
 
+/* sezione 5 */
+.sez-5 h2 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
 
+.sez-5 hr {
+    margin: 40px 0;
+}
 
+.sez-5 p {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.sez-5 i {
+    padding-left: 400px;
+}
+/* fine sezione 5 */
 
 
 
