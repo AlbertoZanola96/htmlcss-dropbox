@@ -54,10 +54,11 @@ h3 {
     text-decoration: none;
 }
 
-ul li:nth-child(6) {
+ .sez-1 ul li:nth-child(6) {
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
 .pulsante-colonna {
     text-decoration: none;
     color: white;
@@ -519,13 +520,65 @@ h4 {
 }
 /* fine sezione 5 */
 
+/* footer */
+footer {
+    width: 100%;
+    min-height: 550px;
+    background-color: black;
+    margin-top: 120px;
+}
 
+.container-footer {
+    width: 90%;
+    margin-left: 70px;
+}
 
-/* debug */
+footer li {
+    color: white;
+    list-style: none;
+    margin-left: 120px;
+    padding: 5px 0;
+}
 
+footer li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
 
+.tit {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
 
-/* / debug */
+.dropbox,
+.prodotti,
+.azienda,
+.supporto,
+.community {
+    float: left;
+}
 
+.colonne {
+    display: inline-block;
+}
 
+footer hr {
+    width: 7%;
+    border: 1px solid gray;
+}
+
+.footer-finale {
+    margin-left: 120px;
+    margin-top: 100px;
+    color: gray;
+
+}
+.footer-finale i,
+.footer-finale span {
+    margin-top: 60px;
+}
+/* fine footer */
 
